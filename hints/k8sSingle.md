@@ -25,7 +25,7 @@ kubectl get service
 ```
 kubectl edit service/nginx
 ```
-6. This opens up an editor. Exchange ClusterIp to LoadBalancer. Close and save the file.
+6. This opens up an editor. Under "spec:", change the "type:" value from ClusterIp to LoadBalancer. Close and save the file.
 7. Check the state of your service
 ```
 kubectl get service -w
