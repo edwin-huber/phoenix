@@ -9,7 +9,8 @@ kubectl run --generator=run-pod/v1 nginx --image=nginx
 2. See what you got
 ```
 kubectl get pods  
-kubectl describe pods
+kubectl describe pods  
+kubectl get deployments
 ```
 3. Wrap your pod deployment with service 
 ```
