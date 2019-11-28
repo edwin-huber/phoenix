@@ -54,7 +54,7 @@ Let's configure it for self-healing.
     - Provide the AI key as an environment variable to your pods as a secret as described [here](hints/createsecrets.md) and redeploy the pods.
 
 
-# Fully automated VSTS YAML deployment
+# Fully automated Azure Dev Ops YAML deployment
 In this chapter you will leverage self-healing capabilites of K8s and extend your VSTS pipeline to trigger a deployment to your K8s cluster. Your application will have no downtime during a rolling upgrade.
 
 ## 1. Create a yaml
