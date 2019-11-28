@@ -2,13 +2,14 @@
 
 **Hint: You have to install kubectl first!**
 
-1. Run single container app in your K8s cluster
+1. Run single container app in your K8s cluster (this method is deprecated now, but is a nice way to get started)
 ```
-kubectl run nginx --image=nginx
+kubectl run --generator=run-pod/v1 nginx --image=nginx
 ```
 2. See what you got
 ```
-kubectl get pods
+kubectl get pods  
+kubectl describe pods
 ```
 3. Wrap your pod deployment with service 
 ```
