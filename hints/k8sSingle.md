@@ -1,8 +1,10 @@
 # Single Container app in K8s
 
-**Hint: You have to install kubectl first!**
+**Hint: You have to install kubectl first!**  
+Also please note that the following steps hide a lot of the required steps that we will be using later to create and deploy pods.
 
-1. Run single container app in your K8s cluster (this method is deprecated now, but is a nice way to get started)
+1. Run single container app in your K8s cluster (this method is deprecated now, but is a nice way to get started).
+
 ```
 kubectl run --generator=run-pod/v1 nginx --image=nginx
 ```
